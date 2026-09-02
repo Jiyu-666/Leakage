@@ -1,0 +1,30 @@
+# Created: 2026-07-22T02:22:20.192817
+# PINT_version: 1.1.5
+# User: jiyu
+# Host: DESKTOP-S6GDTLU
+# OS: Linux-6.6.114.1-microsoft-standard-WSL2-x86_64-with-glibc2.39
+# Python: 3.11.15 | packaged by conda-forge | (main, Jun 11 2026, 03:34:02) [GCC 14.3.0]
+# Format: pint
+# read_time: 2026-07-22T02:22:14.359570
+# allow_tcb: False
+# convert_tcb: False
+# allow_T2: False
+# original_name: cw_batch_data/ideal/baseline_v1/J08.par
+PSR                                   J08
+EPHEM                               DE440
+CLK                          TT(BIPM2016)
+UNITS                                 TDB
+DILATEFREQ                              N
+DMDATA                                  N
+NTOA                                    0
+RAJ                     22:39:45.09302393
+DECJ                    18:39:46.52958579
+PMRA                                  0.0
+PMDEC                                 0.0
+PX                                    0.0
+F0                       205.530696088273
+PEPOCH             53000.0000000000000000
+PLANET_SHAPIRO                          N
+TZRMJD             53000.0000000003055903
+TZRSITE                               ssb
+TZRFRQ                                inf

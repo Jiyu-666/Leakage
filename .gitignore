@@ -1,0 +1,12 @@
+.repro-env/
+.venv/
+.pytest_cache/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+.history/
+.vscode/
+*.egg-info/
+.coverage
+htmlcov/
