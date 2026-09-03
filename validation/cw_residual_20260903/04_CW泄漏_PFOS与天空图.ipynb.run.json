@@ -1,0 +1,276 @@
+{
+  "notebook": "04_CW泄漏_PFOS与天空图.ipynb",
+  "host": "N522",
+  "python": "3.11.15",
+  "elapsed_seconds": 31.384830236434937,
+  "executed_code_cells": 40,
+  "diagnostic_output": "1/T [Hz]: 3.17969067969068e-09\nCW frequency [Hz]: 1.748829873829874e-08\nSelected pulsar: J00\nWeighted CW mean removed [ns]: 1.6866536555513036\nbaseline: {'mean_ns': 9.720433270559695e-20, 'std_ns': 0.3048738706216134, 'rms_ns': 0.3048738706216134, 'max_abs_ns': 0.6915824059935775}\nlegacy: {'mean_ns': -1.686653655551304, 'std_ns': 0.3005427445820514, 'rms_ns': 1.713221087631567, 'max_abs_ns': 2.464850534522585}\nraw: {'mean_ns': 0.012946297067053405, 'std_ns': 0.12632148284343506, 'rms_ns': 0.12698316280323407, 'max_abs_ns': 0.27797631843906845}\nprojected: {'mean_ns': -3.582677537461698e-16, 'std_ns': 0.12632148284343503, 'rms_ns': 0.12632148284343503, 'max_abs_ns': 0.283526808617493}\nRelative RMS (projected): 0.006128738793485515\nCW residual amplitude [ns]: 29.300337230999915\nAll 25 pulsars, raw: worst RMS=0.131717 ns, max=0.325291 ns\nAll 25 pulsars, projected: worst RMS=0.131511 ns, max=0.320177 ns\nPASS: raw and weighted-centered CW injection checks\n",
+  "scan_messages": "delta points: 101\nanalysis bins: [ 1  2  3  4  5  6  7  8  9 10]\nscan data: cw_batch_data/delta_scan/k5_delta_0p00_1p00_step_0p01_bins1to10_nside8.npz\n扫描结果已存在，直接加载，不覆盖\n",
+  "cell_log": [
+    {
+      "cell_index": 0,
+      "cell_id": "title",
+      "time": 1788444893.525673
+    },
+    {
+      "cell_index": 1,
+      "cell_id": "imports-title",
+      "time": 1788444893.525696
+    },
+    {
+      "cell_index": 2,
+      "cell_id": "imports",
+      "time": 1788444893.525701
+    },
+    {
+      "cell_index": 3,
+      "cell_id": "parameters-title",
+      "time": 1788444894.5474863
+    },
+    {
+      "cell_index": 4,
+      "cell_id": "parameters",
+      "time": 1788444894.5475044
+    },
+    {
+      "cell_index": 5,
+      "cell_id": "paths",
+      "time": 1788444894.5516722
+    },
+    {
+      "cell_index": 6,
+      "cell_id": "ideal-title",
+      "time": 1788444894.5630672
+    },
+    {
+      "cell_index": 7,
+      "cell_id": "small-functions",
+      "time": 1788444894.5630891
+    },
+    {
+      "cell_index": 8,
+      "cell_id": "ideal-loader",
+      "time": 1788444894.5667295
+    },
+    {
+      "cell_index": 9,
+      "cell_id": "model-pars",
+      "time": 1788444894.5703776
+    },
+    {
+      "cell_index": 10,
+      "cell_id": "ideal-dataset",
+      "time": 1788444894.5747056
+    },
+    {
+      "cell_index": 11,
+      "cell_id": "cw-title",
+      "time": 1788444899.0743265
+    },
+    {
+      "cell_index": 12,
+      "cell_id": "inject-function",
+      "time": 1788444899.074344
+    },
+    {
+      "cell_index": 13,
+      "cell_id": "batch-loop",
+      "time": 1788444899.0781438
+    },
+    {
+      "cell_index": 14,
+      "cell_id": "plots-title",
+      "time": 1788444901.078885
+    },
+    {
+      "cell_index": 15,
+      "cell_id": "sky-plot",
+      "time": 1788444901.0789022
+    },
+    {
+      "cell_index": 16,
+      "cell_id": "residual-plot",
+      "time": 1788444901.1883888
+    },
+    {
+      "cell_index": 17,
+      "cell_id": "enterprise-title",
+      "time": 1788444902.0139432
+    },
+    {
+      "cell_index": 18,
+      "cell_id": "enterprise",
+      "time": 1788444902.0139618
+    },
+    {
+      "cell_index": 19,
+      "cell_id": "leakage-title",
+      "time": 1788444902.259416
+    },
+    {
+      "cell_index": 20,
+      "cell_id": "leakage-data",
+      "time": 1788444902.2594337
+    },
+    {
+      "cell_index": 21,
+      "cell_id": "leakage-projections",
+      "time": 1788444902.264332
+    },
+    {
+      "cell_index": 22,
+      "cell_id": "leakage-window",
+      "time": 1788444902.2879333
+    },
+    {
+      "cell_index": 23,
+      "cell_id": "leakage-checks",
+      "time": 1788444902.2919781
+    },
+    {
+      "cell_index": 24,
+      "cell_id": "leakage-plot",
+      "time": 1788444902.2953987
+    },
+    {
+      "cell_index": 25,
+      "cell_id": "pfos-title",
+      "time": 1788444902.4623296
+    },
+    {
+      "cell_index": 26,
+      "cell_id": "pfos-model",
+      "time": 1788444902.4623477
+    },
+    {
+      "cell_index": 27,
+      "cell_id": "pfos-run",
+      "time": 1788444902.613598
+    },
+    {
+      "cell_index": 28,
+      "cell_id": "pfos-table",
+      "time": 1788444902.6550517
+    },
+    {
+      "cell_index": 29,
+      "cell_id": "radiometer-title",
+      "time": 1788444902.6652427
+    },
+    {
+      "cell_index": 30,
+      "cell_id": "maps-response",
+      "time": 1788444902.6652591
+    },
+    {
+      "cell_index": 31,
+      "cell_id": "radiometer-helper",
+      "time": 1788444902.9636042
+    },
+    {
+      "cell_index": 32,
+      "cell_id": "radiometer-arrays",
+      "time": 1788444902.967105
+    },
+    {
+      "cell_index": 33,
+      "cell_id": "radiometer-maps-plot",
+      "time": 1788444902.981278
+    },
+    {
+      "cell_index": 34,
+      "cell_id": "cross-bin-power",
+      "time": 1788444904.8769948
+    },
+    {
+      "cell_index": 35,
+      "cell_id": "peak-offset-plot",
+      "time": 1788444904.9459698
+    },
+    {
+      "cell_index": 36,
+      "cell_id": "demo-boundary",
+      "time": 1788444905.003299
+    },
+    {
+      "cell_index": 37,
+      "cell_id": "delta-scan-title",
+      "time": 1788444905.0033162
+    },
+    {
+      "cell_index": 38,
+      "cell_id": "delta-scan-config",
+      "time": 1788444905.0033212
+    },
+    {
+      "cell_index": 39,
+      "cell_id": "delta-scan-cache",
+      "time": 1788444905.007312
+    },
+    {
+      "cell_index": 40,
+      "cell_id": "delta-scan-pfos-helpers",
+      "time": 1788444905.0583055
+    },
+    {
+      "cell_index": 41,
+      "cell_id": "delta-scan-map-helper",
+      "time": 1788444905.0630207
+    },
+    {
+      "cell_index": 42,
+      "cell_id": "delta-scan-storage",
+      "time": 1788444905.0670142
+    },
+    {
+      "cell_index": 43,
+      "cell_id": "delta-scan-loop",
+      "time": 1788444905.0711873
+    },
+    {
+      "cell_index": 44,
+      "cell_id": "delta-scan-save",
+      "time": 1788444905.0754805
+    },
+    {
+      "cell_index": 45,
+      "cell_id": "delta-scan-checks",
+      "time": 1788444905.0789456
+    },
+    {
+      "cell_index": 46,
+      "cell_id": "delta-scan-heatmaps",
+      "time": 1788444905.0861948
+    },
+    {
+      "cell_index": 47,
+      "cell_id": "delta-scan-raw-profiles",
+      "time": 1788444905.3590112
+    },
+    {
+      "cell_index": 48,
+      "cell_id": "delta-scan-offset-heatmap",
+      "time": 1788444905.7072551
+    },
+    {
+      "cell_index": 49,
+      "cell_id": "delta-scan-representative-maps",
+      "time": 1788444905.9655097
+    },
+    {
+      "cell_index": 50,
+      "cell_id": "delta-scan-full-band-maps",
+      "time": 1788444915.1755528
+    },
+    {
+      "cell_index": 51,
+      "cell_id": "delta-scan-table",
+      "time": 1788444923.6428158
+    },
+    {
+      "cell_index": 52,
+      "cell_id": "delta-scan-boundary",
+      "time": 1788444923.6579828
+    }
+  ]
+}

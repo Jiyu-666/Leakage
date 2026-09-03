@@ -1,0 +1,106 @@
+{
+  "notebook": "02_CW批次注入.ipynb",
+  "host": "N522",
+  "python": "3.11.15",
+  "elapsed_seconds": 17.544996976852417,
+  "executed_code_cells": 12,
+  "diagnostic_output": "1/T [Hz]: 3.17969067969068e-09\nCW frequency [Hz]: 1.748829873829874e-08\nSelected pulsar: J00\nWeighted CW mean removed [ns]: 1.6866536555513036\nbaseline: {'mean_ns': 9.720433270559695e-20, 'std_ns': 0.3048738706216134, 'rms_ns': 0.3048738706216134, 'max_abs_ns': 0.6915824059935775}\nlegacy: {'mean_ns': -1.686653655551304, 'std_ns': 0.3005427445820514, 'rms_ns': 1.713221087631567, 'max_abs_ns': 2.464850534522585}\nraw: {'mean_ns': 0.012946297067053405, 'std_ns': 0.12632148284343506, 'rms_ns': 0.12698316280323407, 'max_abs_ns': 0.27797631843906845}\nprojected: {'mean_ns': -3.582677537461698e-16, 'std_ns': 0.12632148284343503, 'rms_ns': 0.12632148284343503, 'max_abs_ns': 0.283526808617493}\nRelative RMS (projected): 0.006128738793485515\nCW residual amplitude [ns]: 29.300337230999915\nAll 25 pulsars, raw: worst RMS=0.131717 ns, max=0.325291 ns\nAll 25 pulsars, projected: worst RMS=0.131511 ns, max=0.320177 ns\nPASS: raw and weighted-centered CW injection checks\n",
+  "scan_messages": "",
+  "cell_log": [
+    {
+      "cell_index": 0,
+      "cell_id": "title",
+      "time": 1788444855.833159
+    },
+    {
+      "cell_index": 1,
+      "cell_id": "imports-title",
+      "time": 1788444855.8331804
+    },
+    {
+      "cell_index": 2,
+      "cell_id": "imports",
+      "time": 1788444855.8331864
+    },
+    {
+      "cell_index": 3,
+      "cell_id": "parameters-title",
+      "time": 1788444856.8448925
+    },
+    {
+      "cell_index": 4,
+      "cell_id": "parameters",
+      "time": 1788444856.844919
+    },
+    {
+      "cell_index": 5,
+      "cell_id": "paths",
+      "time": 1788444856.8488967
+    },
+    {
+      "cell_index": 6,
+      "cell_id": "ideal-title",
+      "time": 1788444856.8604631
+    },
+    {
+      "cell_index": 7,
+      "cell_id": "small-functions",
+      "time": 1788444856.8604786
+    },
+    {
+      "cell_index": 8,
+      "cell_id": "ideal-loader",
+      "time": 1788444856.8645449
+    },
+    {
+      "cell_index": 9,
+      "cell_id": "model-pars",
+      "time": 1788444856.8682656
+    },
+    {
+      "cell_index": 10,
+      "cell_id": "ideal-dataset",
+      "time": 1788444856.872632
+    },
+    {
+      "cell_index": 11,
+      "cell_id": "cw-title",
+      "time": 1788444869.257923
+    },
+    {
+      "cell_index": 12,
+      "cell_id": "inject-function",
+      "time": 1788444869.25794
+    },
+    {
+      "cell_index": 13,
+      "cell_id": "batch-loop",
+      "time": 1788444869.2616572
+    },
+    {
+      "cell_index": 14,
+      "cell_id": "plots-title",
+      "time": 1788444871.3740113
+    },
+    {
+      "cell_index": 15,
+      "cell_id": "sky-plot",
+      "time": 1788444871.3740292
+    },
+    {
+      "cell_index": 16,
+      "cell_id": "residual-plot",
+      "time": 1788444871.498235
+    },
+    {
+      "cell_index": 17,
+      "cell_id": "enterprise-title",
+      "time": 1788444872.2005641
+    },
+    {
+      "cell_index": 18,
+      "cell_id": "enterprise",
+      "time": 1788444872.2005806
+    }
+  ]
+}

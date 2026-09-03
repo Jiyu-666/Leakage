@@ -1,0 +1,9 @@
+{
+  "ephemeris": "DE440",
+  "canonical_url": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/de440.bsp",
+  "download_mirror": "https://data.nanograv.org/static/data/ephem/de440.bsp",
+  "cache_path": "/home/liujiyu/.astropy/cache/download/url/dabea460521989808aedfb52df4e07e4/contents",
+  "bytes": 119799808,
+  "sha256": "a4ce9bf9b3282becc9f4b2ac3cebe03a2ae7599981aabd7265fd8482fff7c4b5",
+  "segments": "File type DAF/SPK and format LTL-IEEE with 14 segments:\n1549-12-31..2650-01-25  Type 2  Solar System Barycenter (0) -> Mercury Barycenter (1)\n1549-12-31..2650-01-25  Type 2  Solar System Barycenter (0) -> Venus Barycenter (2)\n1549-12-31..2650-01-25  Type 2  Solar System Barycenter (0) -> Earth Barycenter (3)\n1549-12-31..2650-01-25  Type 2  Solar System Barycenter (0) -> Mars Barycenter (4)\n1549-12-31..2650-01-25  Type 2  Solar System Barycenter (0) -> Jupiter Barycenter (5)\n1549-12-31..2650-01-25  Type 2  Solar System Barycenter (0) -> Saturn Barycenter (6)\n1549-12-31..2650-01-25  Type 2  Solar System Barycenter (0) -> Uranus Barycenter (7)\n1549-12-31..2650-01-25  Type 2  Solar System Barycenter (0) -> Neptune Barycenter (8)\n1549-12-31..2650-01-25  Type 2  Solar System Barycenter (0) -> Pluto Barycenter (9)\n1549-12-31..2650-01-25  Type 2  Solar System Barycenter (0) -> Sun (10)\n1549-12-31..2650-01-25  Type 2  Earth Barycenter (3) -> Moon (301)\n1549-12-31..2650-01-25  Type 2  Earth Barycenter (3) -> Earth (399)\n1549-12-31..2650-01-25  Type 2  Mercury Barycenter (1) -> Mercury (199)\n1549-12-31..2650-01-25  Type 2  Venus Barycenter (2) -> Venus (299)"
+}

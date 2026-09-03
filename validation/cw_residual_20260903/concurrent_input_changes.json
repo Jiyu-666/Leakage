@@ -1,0 +1,110 @@
+{
+  "reason": "User explicitly confirmed concurrently running/editing notebook 01. Preserve these user changes; do not restore or replace the original snapshot. At first observation, the 25 legacy par files differed only in comment metadata. These paths are not inputs to notebook 02 or 04.",
+  "user_confirmed_active_paths": ["demo/01_CW注入_手写原稿.ipynb", "demo/data/par/", "demo/data/cw_partim/"],
+  "observed_changes": {
+    "demo/01_CW注入_手写原稿.ipynb": {
+      "before": "2d427f1a243d7965effbab66e52e4ad6dca5bac1d9d70032c35ea31b244c384a",
+      "observed_after": "04a71a0760ad9ad223453b1d130a64f16f6929e922cfbef7d7c2e83914a195fb"
+    },
+    "demo/data/par/J00.par": {
+      "before": "f20ecb013e35952c09a2c7b2f9f390b202a3646bf23c56a02d7b7cd39d03f6a1",
+      "observed_after": "1f5d601814c91037d891f40593c1a15d9b59bf0820046da3ccb33b79c461da3c"
+    },
+    "demo/data/par/J01.par": {
+      "before": "5ce5a9a4f47e7594fbf8e7bd1752add0909ec2ce8bd779eac79261dd0c0f2e9b",
+      "observed_after": "7edf55bd0509e6f974dbc9725e47847b533aa4d7bb7e6be57fbd287644f74465"
+    },
+    "demo/data/par/J02.par": {
+      "before": "174285e749fe344afda5f9c5cb1e14690afaa39a039aa9aafe11a8cfe0af5a04",
+      "observed_after": "142a483bf7d0403ce5cd1f91fbcb478f2603814c01062890c0a82aef251e51c6"
+    },
+    "demo/data/par/J03.par": {
+      "before": "376aaa08896c2b2313ca75e63d53ad1802fdc5112948eb7986a111058441ff97",
+      "observed_after": "b5569fdaaba2b7479884b1db0ac61e8a51504fd8f878c2944c6c5b7ed92357d0"
+    },
+    "demo/data/par/J04.par": {
+      "before": "01c601ddfe6baa897f97d7ec82cede01cdd91d8d716cd5e59a66887507791398",
+      "observed_after": "2d88f1ad851feb5f2d59d101f6c9ddba85c53fa91ea113385ed2006eefa6a101"
+    },
+    "demo/data/par/J05.par": {
+      "before": "3c7fe8986b1ddacf290127ee71ef761b959ef31ea810c8b140af8a8b126681b1",
+      "observed_after": "cda53bdbda08a35f77faa9babd1096abb5c5a3356d35f13378fc1db6f7e7e963"
+    },
+    "demo/data/par/J06.par": {
+      "before": "e9e8d39daf220cdc285472b7f654b1725372072abf2203235bff60fb55e31764",
+      "observed_after": "5577b0e6d1e6f7bccc883c0726e7c7a05ae55bbbc078c4f87d5d62c8f8cc48ca"
+    },
+    "demo/data/par/J07.par": {
+      "before": "cb7eb05849d964d94165c6b7910e143455c65e215a6a4fb29034d0656df7a2db",
+      "observed_after": "6bb66f74b9b9f3b94e6865057e9381dbe1c992bb1476f323e6501bbdd33ac6e7"
+    },
+    "demo/data/par/J08.par": {
+      "before": "8ee0bab952c750c81ac7a149c53046a7cbc81e5a539a9ae9b300b33a8d42ae96",
+      "observed_after": "480cecb82e8699eace99e848cbb4e626173d3695efdd96764d35b5212f79908f"
+    },
+    "demo/data/par/J09.par": {
+      "before": "01bdfd8e5895b56f19855b19b7937845d2ab30337166a9a0f29ca87d290193b1",
+      "observed_after": "b300614ace8869238efd051fb24ab603d4ef2c4609b48db59c7ec5e9a677f916"
+    },
+    "demo/data/par/J10.par": {
+      "before": "4a2216b132cdf1733648ec3276f5d3e6b0e309d930ddd821ae61a62c6e3a7f28",
+      "observed_after": "c3eafec61659b7522c71cab55a4419c3ceae07d218879a15a01bf41f12e08004"
+    },
+    "demo/data/par/J11.par": {
+      "before": "04722a79f0304ebc061b59a8e777e3775edf8f602e36d94cbb1f3ae099063f17",
+      "observed_after": "495512691bc0fb849ae2524a27365696df0a3817b324e2e2ca3c80132cab9d69"
+    },
+    "demo/data/par/J12.par": {
+      "before": "79dc7cbce75626662801d8b0a04f1e1474f7338a412a78b4cbe30c8a00b959e0",
+      "observed_after": "7bc08a39312a551f77e88ad2191e974f2616a858ab2cf40577925946f22e0508"
+    },
+    "demo/data/par/J13.par": {
+      "before": "1dc7fda684bbe59a63743bbca4f6e5db1bb84cddecd5cfee4d50aa0b2452a1d3",
+      "observed_after": "f730fd7dd1a97657a91021d74462aafa205d27bfba4b2bd037a8ad4b0eb5c6a8"
+    },
+    "demo/data/par/J14.par": {
+      "before": "de8ff97c772c3fe65acf916cd3ddae2ddd04d411b862d9d944c307dcefc9b0e4",
+      "observed_after": "6d952ca3e8931241f92a7f790139373625dddc3a76258d3fe3665b0a240dc00b"
+    },
+    "demo/data/par/J15.par": {
+      "before": "37767c882a1595710040ed022faf6858c2dd60fd889f88cd75787e164a790d9a",
+      "observed_after": "a48a72bdc70fb64bf801e25f5850ccd2e705963dc0f0c4ff9dc1611d3b6b3f1d"
+    },
+    "demo/data/par/J16.par": {
+      "before": "bfcaacb95d2cf024868219b65203016a073c9413d2be67f328b0ae56db5acd6a",
+      "observed_after": "b27d8a1f47c502560106ff8655d22855184fd926c0570008c4688ef01f47ae54"
+    },
+    "demo/data/par/J17.par": {
+      "before": "21602a3e0c31088149032030806a26d645cb3240d3e4e120112d1580814f727c",
+      "observed_after": "efe0660ff610c5f485c9b17170ceebb40e1bc64e1fac5e07315e746b850a8602"
+    },
+    "demo/data/par/J18.par": {
+      "before": "1805d670feb75d590ea7c25f25b12ed3813dcc5c8912e089ebdc220be59cf098",
+      "observed_after": "e4a1c09c61cb6e22c7192c08d21d844db0c617fcdb4f4ed873733d65ecd1d3c2"
+    },
+    "demo/data/par/J19.par": {
+      "before": "1a4965f6e58ccb7f11b63560c202ce591b57ca458c218b4ad74e4426dcb873e3",
+      "observed_after": "31c51ef9e776c1aacf957fcf5a7ce65d67a14b4be1234857e0574a9fb060f26d"
+    },
+    "demo/data/par/J20.par": {
+      "before": "ed6ce9a967de9646e4aa10559143824d9280d9075f5f25dc8c7a7d9fba605cf5",
+      "observed_after": "f76e6820e0dc7475926ca69be52e4844407fa7bf14d423c02b0c7b85144a8c1f"
+    },
+    "demo/data/par/J21.par": {
+      "before": "1915c75c16723937c89e0ddb5a47d8a7a0975f63da5f9eeb02e06a88b94964c3",
+      "observed_after": "593722d0f50ced26b8e8b5f564d2fd9a426461b1e4bae87f16ac6732f0caca9b"
+    },
+    "demo/data/par/J22.par": {
+      "before": "bfc8337f85c8a0a43d191216d10df25603845bd820c0052bc76571f5fd3f05b0",
+      "observed_after": "fbf341637625755e10e1c01f1e8420a420fded6eab99c4c4b868ce6171635064"
+    },
+    "demo/data/par/J23.par": {
+      "before": "a6238ffb095a02c217737c7bfd96eb6fd892a7cd58a19fc3615b0d1da3982fcb",
+      "observed_after": "008e7b01e39e4b25e5acf92f56928e3422847a8bf1089597464d65527fda2dea"
+    },
+    "demo/data/par/J24.par": {
+      "before": "b95fcc0f99faa0a46e62340700d2121f513db313349542b792885296fedc0bdd",
+      "observed_after": "5c98d5b361532dc7fd7c6bf577c7bc03d6b289b9258f3d375cea693b88dc553c"
+    }
+  }
+}

@@ -2,7 +2,7 @@
 
 The functions in this module intentionally contain no stochastic-background
 or radiometer assumptions.  They implement the four-amplitude, coherent
-Earth-term model used by ``notebook.cw-intrinsic-leakage.ipynb``.
+Earth-term model used by ``03_CW本征频率泄漏.ipynb``.
 """
 
 from __future__ import annotations

@@ -1,0 +1,41 @@
+{
+  "cases": [
+    {
+      "cycles": 0,
+      "unequal_weights": false,
+      "max_error_ns": 0.0
+    },
+    {
+      "cycles": 0,
+      "unequal_weights": true,
+      "max_error_ns": 0.0
+    },
+    {
+      "cycles": 5,
+      "unequal_weights": false,
+      "max_error_ns": 1.734723475976807e-18
+    },
+    {
+      "cycles": 5,
+      "unequal_weights": true,
+      "max_error_ns": 1.734723475976807e-18
+    },
+    {
+      "cycles": 5.5,
+      "unequal_weights": false,
+      "max_error_ns": 1.734723475976807e-18
+    },
+    {
+      "cycles": 5.5,
+      "unequal_weights": true,
+      "max_error_ns": 1.734723475976807e-18
+    }
+  ],
+  "constant_error": {
+    "mean_ns": 2.0,
+    "std_ns": 0.0,
+    "rms_ns": 2.0,
+    "max_abs_ns": 2.0
+  },
+  "notebook_sources_identical": true
+}
