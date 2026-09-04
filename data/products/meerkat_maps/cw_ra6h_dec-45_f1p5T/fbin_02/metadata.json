@@ -1,0 +1,33 @@
+{
+  "commit": "67beabce445b3391bce488c8162581542d6608b6",
+  "compatibility_patch_sha256": "ef9e7ca66a91f5833c9a140507098a04a72687c6ead85e43c47aa47134b915b1",
+  "basis_coordinates": "propagation; apply explicit antipodal coordinate conversion after makemap",
+  "defiant_commit": "25d38082bbf2b9b33829f59438ac66a5dfc112fa",
+  "injection_metadata_sha256": "a3681bba07b451dd6ab6fcf30e3211bda431bdfa8dd620a06e1de64460882a66",
+  "baseline_metadata_sha256": "f478165a0840f2f921d906cfb92bbe7801273ac113cfaf7c2f1e695edfe6ae2c",
+  "lmax": 6,
+  "n_keep": 29,
+  "nside": 16,
+  "n_fourier": 10,
+  "narrowband": true,
+  "pair_covariance": true,
+  "T_obs_seconds": 314496938.28331375,
+  "fCW_hz": 4.769521789902861e-09,
+  "pixel_resolution_deg": 1,
+  "pixel_conversion": "upstream makemap executed by Octave 9.4.0; explicit antipodal relabel",
+  "power_definition": "Sk * official makemap(clms), where clms reconstruct rhok/Sk; PSD/T units s^2; no pixel-uncertainty division",
+  "monopole_removed": false,
+  "negative_values_clipped": false,
+  "bins": [
+    {
+      "bin": 2,
+      "frequency_nhz": 6.359362386537147,
+      "Sk_s2": 5.076656262187015e-16,
+      "min_power_s2": -6.008012276609396e-15,
+      "max_power_s2": 1.7274002056458457e-14,
+      "peak_ra_hours": 5.866666666666671,
+      "peak_dec_deg": -42.0,
+      "retained_condition": 13.231577276532093
+    }
+  ]
+}

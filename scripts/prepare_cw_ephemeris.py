@@ -27,7 +27,7 @@ if __name__ == "__main__":
               "sha256": hashlib.sha256(path.read_bytes()).hexdigest(),
               "segments": description}
     root = Path(__file__).resolve().parents[1]
-    output = root / "validation" / "cw_residual_20260903" / "ephemeris.json"
+    output = root / "validation" / "cw_benchmark" / "ephemeris.json"
     output.parent.mkdir(parents=True, exist_ok=True)
     output.write_text(json.dumps(record, indent=2) + "\n")
     print(json.dumps(record, indent=2))

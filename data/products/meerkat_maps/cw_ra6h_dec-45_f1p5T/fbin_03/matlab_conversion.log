@@ -1,0 +1,12 @@
+warning: isstr is obsolete; please use ischar instead
+warning: called from
+    isstr at line 41 column 5
+    plm2xyz at line 32 column 4
+    makemap at line 55 column 23
+    cartography_clean_map at line 30 column 47
+
+warning: Matlab-style short-circuit operation performed for operator &
+warning: called from
+    plm2xyz at line 72 column 28
+    makemap at line 55 column 23
+    cartography_clean_map at line 30 column 47

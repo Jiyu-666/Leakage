@@ -1,0 +1,6 @@
+name: leakage-octave
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - octave=9.4.0=h3f45bdf_1

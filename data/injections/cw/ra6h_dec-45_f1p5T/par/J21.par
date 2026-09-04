@@ -1,0 +1,30 @@
+# Created: 2026-09-03T23:33:29.016296
+# PINT_version: 1.1.5
+# User: liujiyu
+# Host: N522
+# OS: Linux-6.17.0-5-generic-x86_64-with-glibc2.43
+# Python: 3.11.15 | packaged by conda-forge | (main, Aug 11 2026, 10:26:29) [GCC 14.4.0]
+# Format: pint
+# read_time: 2026-09-03T23:33:24.148032
+# allow_tcb: False
+# convert_tcb: False
+# allow_T2: False
+# original_name: /home/liujiyu/projects/Leakage/data/baseline/ideal_25psr/par/J21.par
+PSR                                   J21
+EPHEM                               DE440
+CLK                          TT(BIPM2016)
+UNITS                                 TDB
+DILATEFREQ                              N
+DMDATA                                  N
+NTOA                                    0
+RAJ                     23:29:20.86918781
+DECJ                   -46:03:16.12957569
+PMRA                                  0.0
+PMDEC                                 0.0
+PX                                    0.0
+F0                       205.530696088273
+PEPOCH             53000.0000000000000000
+PLANET_SHAPIRO                          N
+TZRMJD             53000.0000000003055903
+TZRSITE                               ssb
+TZRFRQ                                inf

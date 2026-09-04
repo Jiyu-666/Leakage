@@ -1,0 +1,105 @@
+{
+  "notebook": "notebooks/01_MeerKAT_clean_power_hotspot.ipynb",
+  "notebook_sha256": "3d846207008e4993cd8e85d97c1e8fd6e8705fa8d5feda1d48561b28b8a2a8d3",
+  "executed_code_cells": 18,
+  "total_cells": 37,
+  "errors": 0,
+  "elapsed_seconds": 38.98185658454895,
+  "working_directory": "notebooks",
+  "command": "OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 .repro-env/bin/python -m jupyter nbconvert --to notebook --execute --inplace notebooks/01_MeerKAT_clean_power_hotspot.ipynb",
+  "execution_method": "nbclient.NotebookClient in .repro-env; command field is an equivalent reproducible CLI invocation",
+  "software": {
+    "defiant": {
+      "version": "0.4.4",
+      "direct_url": {
+        "url": "https://github.com/GersbachKa/defiant.git",
+        "vcs_info": {
+          "commit_id": "25d38082bbf2b9b33829f59438ac66a5dfc112fa",
+          "requested_revision": "25d38082bbf2b9b33829f59438ac66a5dfc112fa",
+          "vcs": "git"
+        }
+      }
+    },
+    "pta-replicator": {
+      "version": "0.1.0",
+      "direct_url": {
+        "url": "https://github.com/bencebecsy/pta_replicator.git",
+        "vcs_info": {
+          "commit_id": "a2147f7b268b8111290b3c98a9cd416a6e8eaf69",
+          "requested_revision": "a2147f7b268b8111290b3c98a9cd416a6e8eaf69",
+          "vcs": "git"
+        }
+      }
+    },
+    "pint-pulsar": {
+      "version": "1.1.5",
+      "direct_url": {
+        "dir_info": {},
+        "url": "file:///home/conda/feedstock_root/build_artifacts/pint-pulsar_1778161864560/work"
+      }
+    },
+    "numpy": {
+      "version": "2.4.6",
+      "direct_url": {
+        "archive_info": {
+          "hash": "sha256=9f5ed645865bdd41eb671568973753a710fda708ed74e7a0b4acf98e7a7a2970",
+          "hashes": {
+            "sha256": "9f5ed645865bdd41eb671568973753a710fda708ed74e7a0b4acf98e7a7a2970"
+          }
+        },
+        "url": "file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_numpy_1779169198/work/dist/numpy-2.4.6-cp311-cp311-linux_x86_64.whl"
+      }
+    },
+    "scipy": {
+      "version": "1.17.1",
+      "direct_url": {
+        "archive_info": {
+          "hash": "sha256=fb9bc72e4de1a7def4fdab777e350fa5c075ed66f9ad0ac80fa09bd588a1a625",
+          "hashes": {
+            "sha256": "fb9bc72e4de1a7def4fdab777e350fa5c075ed66f9ad0ac80fa09bd588a1a625"
+          }
+        },
+        "url": "file:///home/conda/feedstock_root/build_artifacts/scipy-split_1779873994451/work/dist/scipy-1.17.1-cp311-cp311-linux_x86_64.whl"
+      }
+    },
+    "healpy": {
+      "version": "1.19.0",
+      "direct_url": {
+        "dir_info": {},
+        "url": "file:///home/conda/feedstock_root/build_artifacts/healpy_1777847976875/work"
+      }
+    },
+    "astropy": {
+      "version": "7.2.0",
+      "direct_url": {
+        "dir_info": {},
+        "url": "file:///home/conda/feedstock_root/build_artifacts/astropy-base_1764120485665/work"
+      }
+    },
+    "matplotlib": {
+      "version": "3.11.0"
+    },
+    "pandas": {
+      "version": "3.0.5",
+      "direct_url": {
+        "dir_info": {},
+        "url": "file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_pandas_1785276229/work"
+      }
+    },
+    "nbclient": {
+      "version": "0.11.0",
+      "direct_url": {
+        "dir_info": {},
+        "url": "file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_nbclient_1788212974/work"
+      }
+    },
+    "enterprise-pulsar": {
+      "conda_version": "3.5.0",
+      "python_distribution_version": "0.0.0"
+    }
+  },
+  "lock_sha256": {
+    "environment.linux-64.lock.yml": "806cc260555984e08b46a793d3add940354fcac91498fe2eac47ae27b725f0ff",
+    "environment.octave.linux-64.lock.yml": "db36141914a38deb8f05915cd2116e8956ad472954aeb2798fac03dfb51d7d44"
+  }
+}

@@ -1,0 +1,81 @@
+--- a/anis_coefficients.py
++++ b/anis_coefficients.py
+@@ -4,6 +4,10 @@
+ import numpy as np
+ import scipy.special as ss
+
++def sph_harm(m, l, phi, theta):
++    """Legacy SciPy signature, evaluated by the current SciPy function."""
++    return ss.sph_harm_y(l, m, theta, phi)
++
+
+ """
+ Script to compute the correlation basis-functions for various anisotropic
+@@ -21,12 +25,12 @@
+     The real-valued spherical harmonics.
+     """
+     if mm > 0:
+-        ans = (1.0 / np.sqrt(2)) * (ss.sph_harm(mm, ll, phi, theta) + ((-1) ** mm) * ss.sph_harm(-mm, ll, phi, theta))
++        ans = (1.0 / np.sqrt(2)) * (sph_harm(mm, ll, phi, theta) + ((-1) ** mm) * sph_harm(-mm, ll, phi, theta))
+     elif mm == 0:
+-        ans = ss.sph_harm(0, ll, phi, theta)
++        ans = sph_harm(0, ll, phi, theta)
+     elif mm < 0:
+         ans = (1.0 / (np.sqrt(2) * complex(0.0, 1))) * (
+-            ss.sph_harm(-mm, ll, phi, theta) - ((-1) ** mm) * ss.sph_harm(mm, ll, phi, theta)
++            sph_harm(-mm, ll, phi, theta) - ((-1) ** mm) * sph_harm(mm, ll, phi, theta)
+         )
+
+     return ans.real
+@@ -216,10 +220,10 @@
+     ind = 0
+     maxl = int(np.sqrt(len(clm))) - 1
+     if sph_complex == True:
+-        h = np.zeros(npixels, dtype='complex_')
++        h = np.zeros(npixels, dtype=np.complex128)
+         for ll in range(maxl + 1):
+             for mm in range(-ll, ll + 1):
+-                h += clm[ind] * ss.sph_harm(mm, ll, pixels[1], pixels[0])
++                h += clm[ind] * sph_harm(mm, ll, pixels[1], pixels[0])
+                 ind += 1
+
+     else:
+--- a/anis_pta.py
++++ b/anis_pta.py
+@@ -1,4 +1,5 @@
+ import numpy as np
++import math
+ import scipy.optimize as sopt
+
+ import pickle, healpy as hp
+@@ -6,7 +7,7 @@
+ import numpy.random as nr, scipy.stats as scst
+ from PTMCMCSampler.PTMCMCSampler import PTSampler as ptmcmc
+
+-from enterprise.signals import anis_coefficients as ac
++from . import anis_coefficients as ac
+
+
+ import scipy.linalg as sl
+@@ -51,7 +52,7 @@
+         self.include_pta_monopole = include_pta_monopole
+
+         self.npsrs = len(self.psrs_theta)
+-        self.npairs = int(np.math.factorial(self.npsrs) / (np.math.factorial(2) * np.math.factorial(self.npsrs - 2)))
++        self.npairs = int(math.factorial(self.npsrs) / (math.factorial(2) * math.factorial(self.npsrs - 2)))
+
+         self.npix = hp.nside2npix(self.nside)
+         self.gw_theta, self.gw_phi = hp.pix2ang(nside = self.nside, ipix = np.arange(self.npix))
+@@ -96,11 +97,11 @@
+             # shape (nclm, npsrs, npsrs)
+             # changed --> use consistent polarisation basis with libstempo
+             Gamma_lm = ac.anis_basis(np.dstack((self.psrs_phi, self.psrs_theta))[0], lmax = self.l_max,
+-                                     nside = self.nside, sph_complex = True, to_source=True)
++                                     nside = self.nside, sph_complex = True)
+
+             uti = np.triu_indices(n = self.npsrs, k = 1)
+
+-            self.Gamma_lm = np.full((Gamma_lm.shape[0], self.npairs), 0.0, dtype='complex_')
++            self.Gamma_lm = np.full((Gamma_lm.shape[0], self.npairs), 0.0, dtype=np.complex128)
+
+             for ii in range(Gamma_lm.shape[0]):

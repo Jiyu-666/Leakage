@@ -1,0 +1,649 @@
+Here
+Here
+Here
+Here
+Here
+Here
+Here
+Here
+Here
+Here
+Here
+Here
+Here
+Here
+Here
+Here
+Here
+Here
+Here
+Here
+Here
+Here
+Here
+Here
+Here
+Here
+Here
+Here
+Here
+Here
+Here
+Here
+Here
+Here
+Here
+Here
+Here
+Here
+Here
+Here
+Here
+Here
+Here
+Here
+Here
+Here
+Here
+Here
+Here
+warning: isstr is obsolete; please use ischar instead
+warning: called from
+    isstr at line 41 column 5
+    plm2xyz at line 32 column 4
+    makemap at line 55 column 23
+    cartography_power_maps at line 44 column 47
+
+warning: Matlab-style short-circuit operation performed for operator &
+warning: called from
+    plm2xyz at line 72 column 28
+    makemap at line 55 column 23
+    cartography_power_maps at line 44 column 47
+
+warning: Matlab-style short-circuit operation performed for operator &
+warning: called from
+    plm2xyz at line 72 column 28
+    makemap at line 55 column 23
+    cartography_power_maps at line 56 column 15
+
+warning: Matlab-style short-circuit operation performed for operator &
+warning: called from
+    plm2xyz at line 72 column 28
+    makemap at line 60 column 13
+    cartography_power_maps at line 56 column 15
+
+warning: Matlab-style short-circuit operation performed for operator &
+warning: called from
+    plm2xyz at line 72 column 28
+    makemap at line 55 column 23
+    cartography_power_maps at line 56 column 15
+
+warning: Matlab-style short-circuit operation performed for operator &
+warning: called from
+    plm2xyz at line 72 column 28
+    makemap at line 60 column 13
+    cartography_power_maps at line 56 column 15
+
+warning: Matlab-style short-circuit operation performed for operator &
+warning: called from
+    plm2xyz at line 72 column 28
+    makemap at line 55 column 23
+    cartography_power_maps at line 56 column 15
+
+warning: Matlab-style short-circuit operation performed for operator &
+warning: called from
+    plm2xyz at line 72 column 28
+    makemap at line 60 column 13
+    cartography_power_maps at line 56 column 15
+
+warning: Matlab-style short-circuit operation performed for operator &
+warning: called from
+    plm2xyz at line 72 column 28
+    makemap at line 55 column 23
+    cartography_power_maps at line 56 column 15
+
+warning: Matlab-style short-circuit operation performed for operator &
+warning: called from
+    plm2xyz at line 72 column 28
+    makemap at line 60 column 13
+    cartography_power_maps at line 56 column 15
+
+warning: Matlab-style short-circuit operation performed for operator &
+warning: called from
+    plm2xyz at line 72 column 28
+    makemap at line 55 column 23
+    cartography_power_maps at line 56 column 15
+
+warning: Matlab-style short-circuit operation performed for operator &
+warning: called from
+    plm2xyz at line 72 column 28
+    makemap at line 60 column 13
+    cartography_power_maps at line 56 column 15
+
+warning: Matlab-style short-circuit operation performed for operator &
+warning: called from
+    plm2xyz at line 72 column 28
+    makemap at line 55 column 23
+    cartography_power_maps at line 56 column 15
+
+warning: Matlab-style short-circuit operation performed for operator &
+warning: called from
+    plm2xyz at line 72 column 28
+    makemap at line 60 column 13
+    cartography_power_maps at line 56 column 15
+
+warning: Matlab-style short-circuit operation performed for operator &
+warning: called from
+    plm2xyz at line 72 column 28
+    makemap at line 55 column 23
+    cartography_power_maps at line 56 column 15
+
+warning: Matlab-style short-circuit operation performed for operator &
+warning: called from
+    plm2xyz at line 72 column 28
+    makemap at line 60 column 13
+    cartography_power_maps at line 56 column 15
+
+warning: Matlab-style short-circuit operation performed for operator &
+warning: called from
+    plm2xyz at line 72 column 28
+    makemap at line 55 column 23
+    cartography_power_maps at line 56 column 15
+
+warning: Matlab-style short-circuit operation performed for operator &
+warning: called from
+    plm2xyz at line 72 column 28
+    makemap at line 60 column 13
+    cartography_power_maps at line 56 column 15
+
+warning: Matlab-style short-circuit operation performed for operator &
+warning: called from
+    plm2xyz at line 72 column 28
+    makemap at line 55 column 23
+    cartography_power_maps at line 56 column 15
+
+warning: Matlab-style short-circuit operation performed for operator &
+warning: called from
+    plm2xyz at line 72 column 28
+    makemap at line 60 column 13
+    cartography_power_maps at line 56 column 15
+
+warning: Matlab-style short-circuit operation performed for operator &
+warning: called from
+    plm2xyz at line 72 column 28
+    makemap at line 55 column 23
+    cartography_power_maps at line 56 column 15
+
+warning: Matlab-style short-circuit operation performed for operator &
+warning: called from
+    plm2xyz at line 72 column 28
+    makemap at line 60 column 13
+    cartography_power_maps at line 56 column 15
+
+warning: Matlab-style short-circuit operation performed for operator &
+warning: called from
+    plm2xyz at line 72 column 28
+    makemap at line 55 column 23
+    cartography_power_maps at line 56 column 15
+
+warning: Matlab-style short-circuit operation performed for operator &
+warning: called from
+    plm2xyz at line 72 column 28
+    makemap at line 60 column 13
+    cartography_power_maps at line 56 column 15
+
+warning: Matlab-style short-circuit operation performed for operator &
+warning: called from
+    plm2xyz at line 72 column 28
+    makemap at line 55 column 23
+    cartography_power_maps at line 56 column 15
+
+warning: Matlab-style short-circuit operation performed for operator &
+warning: called from
+    plm2xyz at line 72 column 28
+    makemap at line 60 column 13
+    cartography_power_maps at line 56 column 15
+
+warning: Matlab-style short-circuit operation performed for operator &
+warning: called from
+    plm2xyz at line 72 column 28
+    makemap at line 55 column 23
+    cartography_power_maps at line 56 column 15
+
+warning: Matlab-style short-circuit operation performed for operator &
+warning: called from
+    plm2xyz at line 72 column 28
+    makemap at line 60 column 13
+    cartography_power_maps at line 56 column 15
+
+warning: Matlab-style short-circuit operation performed for operator &
+warning: called from
+    plm2xyz at line 72 column 28
+    makemap at line 55 column 23
+    cartography_power_maps at line 56 column 15
+
+warning: Matlab-style short-circuit operation performed for operator &
+warning: called from
+    plm2xyz at line 72 column 28
+    makemap at line 60 column 13
+    cartography_power_maps at line 56 column 15
+
+warning: Matlab-style short-circuit operation performed for operator &
+warning: called from
+    plm2xyz at line 72 column 28
+    makemap at line 55 column 23
+    cartography_power_maps at line 56 column 15
+
+warning: Matlab-style short-circuit operation performed for operator &
+warning: called from
+    plm2xyz at line 72 column 28
+    makemap at line 60 column 13
+    cartography_power_maps at line 56 column 15
+
+warning: Matlab-style short-circuit operation performed for operator &
+warning: called from
+    plm2xyz at line 72 column 28
+    makemap at line 55 column 23
+    cartography_power_maps at line 56 column 15
+
+warning: Matlab-style short-circuit operation performed for operator &
+warning: called from
+    plm2xyz at line 72 column 28
+    makemap at line 60 column 13
+    cartography_power_maps at line 56 column 15
+
+warning: Matlab-style short-circuit operation performed for operator &
+warning: called from
+    plm2xyz at line 72 column 28
+    makemap at line 55 column 23
+    cartography_power_maps at line 56 column 15
+
+warning: Matlab-style short-circuit operation performed for operator &
+warning: called from
+    plm2xyz at line 72 column 28
+    makemap at line 60 column 13
+    cartography_power_maps at line 56 column 15
+
+warning: Matlab-style short-circuit operation performed for operator &
+warning: called from
+    plm2xyz at line 72 column 28
+    makemap at line 55 column 23
+    cartography_power_maps at line 56 column 15
+
+warning: Matlab-style short-circuit operation performed for operator &
+warning: called from
+    plm2xyz at line 72 column 28
+    makemap at line 60 column 13
+    cartography_power_maps at line 56 column 15
+
+warning: Matlab-style short-circuit operation performed for operator &
+warning: called from
+    plm2xyz at line 72 column 28
+    makemap at line 55 column 23
+    cartography_power_maps at line 56 column 15
+
+warning: Matlab-style short-circuit operation performed for operator &
+warning: called from
+    plm2xyz at line 72 column 28
+    makemap at line 60 column 13
+    cartography_power_maps at line 56 column 15
+
+warning: Matlab-style short-circuit operation performed for operator &
+warning: called from
+    plm2xyz at line 72 column 28
+    makemap at line 55 column 23
+    cartography_power_maps at line 56 column 15
+
+warning: Matlab-style short-circuit operation performed for operator &
+warning: called from
+    plm2xyz at line 72 column 28
+    makemap at line 60 column 13
+    cartography_power_maps at line 56 column 15
+
+warning: Matlab-style short-circuit operation performed for operator &
+warning: called from
+    plm2xyz at line 72 column 28
+    makemap at line 55 column 23
+    cartography_power_maps at line 56 column 15
+
+warning: Matlab-style short-circuit operation performed for operator &
+warning: called from
+    plm2xyz at line 72 column 28
+    makemap at line 60 column 13
+    cartography_power_maps at line 56 column 15
+
+warning: Matlab-style short-circuit operation performed for operator &
+warning: called from
+    plm2xyz at line 72 column 28
+    makemap at line 55 column 23
+    cartography_power_maps at line 56 column 15
+
+warning: Matlab-style short-circuit operation performed for operator &
+warning: called from
+    plm2xyz at line 72 column 28
+    makemap at line 60 column 13
+    cartography_power_maps at line 56 column 15
+
+warning: Matlab-style short-circuit operation performed for operator &
+warning: called from
+    plm2xyz at line 72 column 28
+    makemap at line 55 column 23
+    cartography_power_maps at line 56 column 15
+
+warning: Matlab-style short-circuit operation performed for operator &
+warning: called from
+    plm2xyz at line 72 column 28
+    makemap at line 60 column 13
+    cartography_power_maps at line 56 column 15
+
+warning: Matlab-style short-circuit operation performed for operator &
+warning: called from
+    plm2xyz at line 72 column 28
+    makemap at line 55 column 23
+    cartography_power_maps at line 56 column 15
+
+warning: Matlab-style short-circuit operation performed for operator &
+warning: called from
+    plm2xyz at line 72 column 28
+    makemap at line 60 column 13
+    cartography_power_maps at line 56 column 15
+
+warning: Matlab-style short-circuit operation performed for operator &
+warning: called from
+    plm2xyz at line 72 column 28
+    makemap at line 55 column 23
+    cartography_power_maps at line 56 column 15
+
+warning: Matlab-style short-circuit operation performed for operator &
+warning: called from
+    plm2xyz at line 72 column 28
+    makemap at line 60 column 13
+    cartography_power_maps at line 56 column 15
+
+warning: Matlab-style short-circuit operation performed for operator &
+warning: called from
+    plm2xyz at line 72 column 28
+    makemap at line 55 column 23
+    cartography_power_maps at line 56 column 15
+
+warning: Matlab-style short-circuit operation performed for operator &
+warning: called from
+    plm2xyz at line 72 column 28
+    makemap at line 60 column 13
+    cartography_power_maps at line 56 column 15
+
+warning: Matlab-style short-circuit operation performed for operator &
+warning: called from
+    plm2xyz at line 72 column 28
+    makemap at line 55 column 23
+    cartography_power_maps at line 56 column 15
+
+warning: Matlab-style short-circuit operation performed for operator &
+warning: called from
+    plm2xyz at line 72 column 28
+    makemap at line 60 column 13
+    cartography_power_maps at line 56 column 15
+
+warning: Matlab-style short-circuit operation performed for operator &
+warning: called from
+    plm2xyz at line 72 column 28
+    makemap at line 55 column 23
+    cartography_power_maps at line 56 column 15
+
+warning: Matlab-style short-circuit operation performed for operator &
+warning: called from
+    plm2xyz at line 72 column 28
+    makemap at line 60 column 13
+    cartography_power_maps at line 56 column 15
+
+warning: Matlab-style short-circuit operation performed for operator &
+warning: called from
+    plm2xyz at line 72 column 28
+    makemap at line 55 column 23
+    cartography_power_maps at line 56 column 15
+
+warning: Matlab-style short-circuit operation performed for operator &
+warning: called from
+    plm2xyz at line 72 column 28
+    makemap at line 60 column 13
+    cartography_power_maps at line 56 column 15
+
+warning: Matlab-style short-circuit operation performed for operator &
+warning: called from
+    plm2xyz at line 72 column 28
+    makemap at line 55 column 23
+    cartography_power_maps at line 56 column 15
+
+warning: Matlab-style short-circuit operation performed for operator &
+warning: called from
+    plm2xyz at line 72 column 28
+    makemap at line 60 column 13
+    cartography_power_maps at line 56 column 15
+
+warning: Matlab-style short-circuit operation performed for operator &
+warning: called from
+    plm2xyz at line 72 column 28
+    makemap at line 55 column 23
+    cartography_power_maps at line 56 column 15
+
+warning: Matlab-style short-circuit operation performed for operator &
+warning: called from
+    plm2xyz at line 72 column 28
+    makemap at line 60 column 13
+    cartography_power_maps at line 56 column 15
+
+warning: Matlab-style short-circuit operation performed for operator &
+warning: called from
+    plm2xyz at line 72 column 28
+    makemap at line 55 column 23
+    cartography_power_maps at line 56 column 15
+
+warning: Matlab-style short-circuit operation performed for operator &
+warning: called from
+    plm2xyz at line 72 column 28
+    makemap at line 60 column 13
+    cartography_power_maps at line 56 column 15
+
+warning: Matlab-style short-circuit operation performed for operator &
+warning: called from
+    plm2xyz at line 72 column 28
+    makemap at line 55 column 23
+    cartography_power_maps at line 56 column 15
+
+warning: Matlab-style short-circuit operation performed for operator &
+warning: called from
+    plm2xyz at line 72 column 28
+    makemap at line 60 column 13
+    cartography_power_maps at line 56 column 15
+
+warning: Matlab-style short-circuit operation performed for operator &
+warning: called from
+    plm2xyz at line 72 column 28
+    makemap at line 55 column 23
+    cartography_power_maps at line 56 column 15
+
+warning: Matlab-style short-circuit operation performed for operator &
+warning: called from
+    plm2xyz at line 72 column 28
+    makemap at line 60 column 13
+    cartography_power_maps at line 56 column 15
+
+warning: Matlab-style short-circuit operation performed for operator &
+warning: called from
+    plm2xyz at line 72 column 28
+    makemap at line 55 column 23
+    cartography_power_maps at line 56 column 15
+
+warning: Matlab-style short-circuit operation performed for operator &
+warning: called from
+    plm2xyz at line 72 column 28
+    makemap at line 60 column 13
+    cartography_power_maps at line 56 column 15
+
+warning: Matlab-style short-circuit operation performed for operator &
+warning: called from
+    plm2xyz at line 72 column 28
+    makemap at line 55 column 23
+    cartography_power_maps at line 56 column 15
+
+warning: Matlab-style short-circuit operation performed for operator &
+warning: called from
+    plm2xyz at line 72 column 28
+    makemap at line 60 column 13
+    cartography_power_maps at line 56 column 15
+
+warning: Matlab-style short-circuit operation performed for operator &
+warning: called from
+    plm2xyz at line 72 column 28
+    makemap at line 55 column 23
+    cartography_power_maps at line 56 column 15
+
+warning: Matlab-style short-circuit operation performed for operator &
+warning: called from
+    plm2xyz at line 72 column 28
+    makemap at line 60 column 13
+    cartography_power_maps at line 56 column 15
+
+warning: Matlab-style short-circuit operation performed for operator &
+warning: called from
+    plm2xyz at line 72 column 28
+    makemap at line 55 column 23
+    cartography_power_maps at line 56 column 15
+
+warning: Matlab-style short-circuit operation performed for operator &
+warning: called from
+    plm2xyz at line 72 column 28
+    makemap at line 60 column 13
+    cartography_power_maps at line 56 column 15
+
+warning: Matlab-style short-circuit operation performed for operator &
+warning: called from
+    plm2xyz at line 72 column 28
+    makemap at line 55 column 23
+    cartography_power_maps at line 56 column 15
+
+warning: Matlab-style short-circuit operation performed for operator &
+warning: called from
+    plm2xyz at line 72 column 28
+    makemap at line 60 column 13
+    cartography_power_maps at line 56 column 15
+
+warning: Matlab-style short-circuit operation performed for operator &
+warning: called from
+    plm2xyz at line 72 column 28
+    makemap at line 55 column 23
+    cartography_power_maps at line 56 column 15
+
+warning: Matlab-style short-circuit operation performed for operator &
+warning: called from
+    plm2xyz at line 72 column 28
+    makemap at line 60 column 13
+    cartography_power_maps at line 56 column 15
+
+warning: Matlab-style short-circuit operation performed for operator &
+warning: called from
+    plm2xyz at line 72 column 28
+    makemap at line 55 column 23
+    cartography_power_maps at line 56 column 15
+
+warning: Matlab-style short-circuit operation performed for operator &
+warning: called from
+    plm2xyz at line 72 column 28
+    makemap at line 60 column 13
+    cartography_power_maps at line 56 column 15
+
+warning: Matlab-style short-circuit operation performed for operator &
+warning: called from
+    plm2xyz at line 72 column 28
+    makemap at line 55 column 23
+    cartography_power_maps at line 56 column 15
+
+warning: Matlab-style short-circuit operation performed for operator &
+warning: called from
+    plm2xyz at line 72 column 28
+    makemap at line 60 column 13
+    cartography_power_maps at line 56 column 15
+
+warning: Matlab-style short-circuit operation performed for operator &
+warning: called from
+    plm2xyz at line 72 column 28
+    makemap at line 55 column 23
+    cartography_power_maps at line 56 column 15
+
+warning: Matlab-style short-circuit operation performed for operator &
+warning: called from
+    plm2xyz at line 72 column 28
+    makemap at line 60 column 13
+    cartography_power_maps at line 56 column 15
+
+warning: Matlab-style short-circuit operation performed for operator &
+warning: called from
+    plm2xyz at line 72 column 28
+    makemap at line 55 column 23
+    cartography_power_maps at line 56 column 15
+
+warning: Matlab-style short-circuit operation performed for operator &
+warning: called from
+    plm2xyz at line 72 column 28
+    makemap at line 60 column 13
+    cartography_power_maps at line 56 column 15
+
+warning: Matlab-style short-circuit operation performed for operator &
+warning: called from
+    plm2xyz at line 72 column 28
+    makemap at line 55 column 23
+    cartography_power_maps at line 56 column 15
+
+warning: Matlab-style short-circuit operation performed for operator &
+warning: called from
+    plm2xyz at line 72 column 28
+    makemap at line 60 column 13
+    cartography_power_maps at line 56 column 15
+
+warning: Matlab-style short-circuit operation performed for operator &
+warning: called from
+    plm2xyz at line 72 column 28
+    makemap at line 55 column 23
+    cartography_power_maps at line 56 column 15
+
+warning: Matlab-style short-circuit operation performed for operator &
+warning: called from
+    plm2xyz at line 72 column 28
+    makemap at line 60 column 13
+    cartography_power_maps at line 56 column 15
+
+warning: Matlab-style short-circuit operation performed for operator &
+warning: called from
+    plm2xyz at line 72 column 28
+    makemap at line 55 column 23
+    cartography_power_maps at line 56 column 15
+
+warning: Matlab-style short-circuit operation performed for operator &
+warning: called from
+    plm2xyz at line 72 column 28
+    makemap at line 60 column 13
+    cartography_power_maps at line 56 column 15
+
+warning: Matlab-style short-circuit operation performed for operator &
+warning: called from
+    plm2xyz at line 72 column 28
+    makemap at line 55 column 23
+    cartography_power_maps at line 56 column 15
+
+warning: Matlab-style short-circuit operation performed for operator &
+warning: called from
+    plm2xyz at line 72 column 28
+    makemap at line 60 column 13
+    cartography_power_maps at line 56 column 15
+
+warning: Matlab-style short-circuit operation performed for operator &
+warning: called from
+    plm2xyz at line 72 column 28
+    makemap at line 55 column 23
+    cartography_power_maps at line 56 column 15
+
+warning: Matlab-style short-circuit operation performed for operator &
+warning: called from
+    plm2xyz at line 72 column 28
+    makemap at line 60 column 13
+    cartography_power_maps at line 56 column 15

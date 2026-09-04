@@ -1,0 +1,3 @@
+[submodule "external/cartography"]
+	path = external/cartography
+	url = https://github.com/mpta-gw/cartography.git

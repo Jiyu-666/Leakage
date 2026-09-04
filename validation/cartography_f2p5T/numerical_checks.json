@@ -1,0 +1,41 @@
+{
+  "commit": "67beabce445b3391bce488c8162581542d6608b6",
+  "compatibility_patch_sha256": "ef9e7ca66a91f5833c9a140507098a04a72687c6ead85e43c47aa47134b915b1",
+  "basis_coordinates": "propagation; apply explicit antipodal coordinate conversion after makemap",
+  "checks": [
+    {
+      "k": 1,
+      "inverse_relative_error": 7.515301664879396e-15,
+      "matlab_vs_scipy_sparse_relative_error": 2.654327391526061e-15,
+      "radiometer_formula_matches": true,
+      "negative_power_preserved": true,
+      "pair_covariance_positive": true
+    },
+    {
+      "k": 2,
+      "inverse_relative_error": 8.28303231480138e-15,
+      "matlab_vs_scipy_sparse_relative_error": 2.895585829983441e-15,
+      "radiometer_formula_matches": true,
+      "negative_power_preserved": true,
+      "pair_covariance_positive": true
+    },
+    {
+      "k": 3,
+      "inverse_relative_error": 4.549122383947699e-15,
+      "matlab_vs_scipy_sparse_relative_error": 4.254487863787323e-15,
+      "radiometer_formula_matches": true,
+      "negative_power_preserved": true,
+      "pair_covariance_positive": true
+    },
+    {
+      "k": 4,
+      "inverse_relative_error": 6.787606959097949e-15,
+      "matlab_vs_scipy_sparse_relative_error": 5.961620664554193e-15,
+      "radiometer_formula_matches": true,
+      "negative_power_preserved": true,
+      "pair_covariance_positive": true
+    }
+  ],
+  "source_convention_relative_error": 1.1716870652793939e-15,
+  "Gamma_lm_nside16_vs32_relative_error": 0.004992781750425381
+}

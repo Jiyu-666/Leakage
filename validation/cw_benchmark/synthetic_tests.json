@@ -1,0 +1,7 @@
+{
+  "exact_window_error": 5.476169588320953e-16,
+  "monochromatic_reconstruction_error": 7.08366534883141e-16,
+  "projector_rank": 1,
+  "notebook_format_and_syntax": true,
+  "rms_includes_constant_bias": true
+}

@@ -1,0 +1,37 @@
+{
+  "commit": "67beabce445b3391bce488c8162581542d6608b6",
+  "compatibility_patch_sha256": "ef9e7ca66a91f5833c9a140507098a04a72687c6ead85e43c47aa47134b915b1",
+  "basis_coordinates": "propagation; apply explicit antipodal coordinate conversion after makemap",
+  "checks": [
+    {
+      "k": 1,
+      "inverse_relative_error": 6.039458185207482e-15,
+      "matlab_vs_scipy_sparse_relative_error": 2.807124390019574e-15,
+      "negative_power_preserved": true,
+      "pair_covariance_positive": true
+    },
+    {
+      "k": 2,
+      "inverse_relative_error": 7.786441860453167e-15,
+      "matlab_vs_scipy_sparse_relative_error": 4.9109538658734914e-15,
+      "negative_power_preserved": true,
+      "pair_covariance_positive": true
+    },
+    {
+      "k": 3,
+      "inverse_relative_error": 6.9854494303360674e-15,
+      "matlab_vs_scipy_sparse_relative_error": 7.039379363242539e-15,
+      "negative_power_preserved": true,
+      "pair_covariance_positive": true
+    },
+    {
+      "k": 4,
+      "inverse_relative_error": 7.10688664787162e-15,
+      "matlab_vs_scipy_sparse_relative_error": 6.6808370282474016e-15,
+      "negative_power_preserved": true,
+      "pair_covariance_positive": true
+    }
+  ],
+  "source_convention_relative_error": 1.1716870652793939e-15,
+  "Gamma_lm_nside16_vs32_relative_error": 0.004992781750425381
+}

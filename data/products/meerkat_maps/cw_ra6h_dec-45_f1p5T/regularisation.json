@@ -1,0 +1,11 @@
+{
+  "lmax": 6,
+  "retained_modes": 29,
+  "rule": "retain the leading subspace with condition <= 15; explicit exploratory choice, not unique or significance-optimised",
+  "full_rank": 49,
+  "full_condition": 100.66993467400341,
+  "retained_condition": 13.23157727676941,
+  "relative_last_retained": 0.07557677962971907,
+  "relative_first_discarded": 0.05664036484367183,
+  "branch": "official max_lkl_clm(U_0=U, Vh_0=Vh, cutoff=N_KEEP)"
+}

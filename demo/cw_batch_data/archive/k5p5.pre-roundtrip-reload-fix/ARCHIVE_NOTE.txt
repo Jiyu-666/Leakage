@@ -1,6 +1,0 @@
-This complete k5p5 dataset was generated during implementation testing before
-the notebook was changed to reload the serialized ideal baseline on the first
-run. It is retained for recoverability and is not the canonical CW batch.
-
-The canonical dataset is:
-../../cw/k5p5_f1.748829873830e-08Hz
